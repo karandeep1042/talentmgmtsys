@@ -1,0 +1,352 @@
+.sidebarandnavbarcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebarmaincontainer {
+    width: 17vw;
+    /* border: 1px solid black; */
+    height: 100vh;
+    background-color: #111726;
+}
+
+.sidebardiv1 {
+    padding: 4vh 2vw;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.sidebarheader {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    line-break: anywhere;
+}
+
+.sidebardiv2 {
+    padding: 2vh 1vw;
+    padding-bottom: 4vh;
+}
+
+.sidebardiv2options {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    font-size: 1.2rem;
+}
+
+.sidebardiv2option {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px 1vw;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.sidebardiv2option:hover {
+    background-color: rgba(196, 196, 196, 0.13);
+    transform: translateX(5px);
+}
+
+.navbarmaincontainer {
+    position: absolute;
+    right: 0px;
+    width: 83vw;
+    background-color: white;
+    height: 13vh;
+    box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 0.2);
+}
+
+.navbarmaincontainer {
+    display: flex;
+    width: 83vw;
+    justify-content: space-between;
+}
+
+.navbardiv1 {
+    display: flex;
+    padding: 0 2vw;
+    font-weight: 600;
+
+    align-items: center;
+    height: 100%;
+}
+
+.navbarheader p {
+    font-size: 2rem;
+}
+
+.navbardiv2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navbaroptions {
+    display: flex;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+
+.searchapplicantcontainer {
+    display: flex;
+    align-items: center;
+}
+
+.searchapplicantcontainer input {
+    padding: 10px 15px;
+    outline: none;
+    font-size: 1.1rem;
+    width: 10vw;
+    background-color: rgba(238, 238, 238, 0.623);
+    border: none;
+}
+
+.searchapplicantcontainer i {
+    background-color: #1f2e52;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.searchapplicantcontainer i:hover {
+    background-color: #111726;
+}
+
+.viewcareerpagebtncontainer {
+    color: #1f2e52;
+    border: 2px solid #1f2e52;
+    display: flex;
+    padding: 0 20px;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+    background: -webkit-linear-gradient(0deg, transparent 50%, #1f2e52 50%);
+    position: relative;
+    background-size: 200% 100%;
+    transition: .4s;
+}
+
+.viewcareerpagebtncontainer:hover {
+    background-position: -100.3% 0;
+    color: white;
+}
+
+.viewcareerpagebtncontainer p {
+    font-weight: 600;
+}
+
+.anewapplicationbtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1f2e52;
+    color: white;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: .2s;
+    position: relative;
+}
+
+.anewapplicationbtn:hover .anewapplicationbtnddmenu {
+    display: flex;
+}
+
+.anewapplicationbtnddmenu {
+    list-style: none;
+    background-color: white;
+    color: #1f2e52;
+    display: none;
+    flex-direction: column;
+    z-index: 5;
+    position: absolute;
+    right: 0;
+    width: 10vw;
+    top: 100%;
+    box-shadow: 0 4px 8px 0 rgba(145, 145, 145, 0.2);
+}
+
+.anewapplicationbtnddmenuitem {
+    padding: 13px 15px;
+}
+
+.anewapplicationbtnddmenuitem:hover {
+    background-color: #f3f3f3;
+}
+
+
+.universaloverlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    position: absolute;
+    display: none;
+    background-color: #0000007a;
+}
+
+.adduserformmaincontainer {
+    position: relative;
+    position: absolute;
+    border-radius: 5px;
+    gap: 2vh;
+    top: 33vh;
+    left: 13vw;
+    padding: 25px;
+    background-color: white;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(145, 145, 145, 0.2);
+    flex-direction: column;
+    z-index: 99;
+    transition: .3s;
+}
+
+.addcandidatemaincontainer {
+    position: relative;
+    position: absolute;
+    border-radius: 5px;
+    gap: 2vh;
+    top: 5vh;
+    left: 5vw;
+    width: 60vw;
+    padding: 25px;
+    background-color: white;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(145, 145, 145, 0.2);
+    flex-direction: column;
+    z-index: 99;
+    transition: .3s;
+}
+
+.addclientformmaincontainer {
+    position: relative;
+    position: absolute;
+    border-radius: 5px;
+    gap: 2vh;
+    top: 25vh;
+    left: 20vw;
+    width: 30vw;
+    padding: 25px;
+    background-color: white;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(145, 145, 145, 0.2);
+    flex-direction: column;
+    z-index: 99;
+    transition: .3s;
+}
+
+.addjobopeningformmaincontainer {
+    position: relative;
+    position: absolute;
+    border-radius: 5px;
+    gap: 2vh;
+    top: 6vh;
+    left: 5vw;
+    width: 60vw;
+    padding: 25px;
+    background-color: white;
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(145, 145, 145, 0.2);
+    flex-direction: column;
+    z-index: 99;
+    transition: .3s;
+}
+
+.adduserformdiv1 {
+    display: flex;
+}
+
+.adduserformheader {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1f2e52;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #111726;
+}
+
+.adduserformdiv2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.adduserformitem input {
+    width: 12vw;
+    transition: .3s;
+}
+
+.adduserformitem select {
+    width: 13vw;
+    transition: .3s;
+}
+
+.adduserformitem select:focus {
+    border-color: #1f2e52;
+}
+
+.adduserformitem {
+    display: flex;
+    flex-direction: column;
+}
+
+.adduserformitem label {
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+
+.adduserformitem input {
+    padding: 10px 10px;
+    outline: none;
+    font-size: 1.2rem;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.adduserformitem input:focus {
+    border-color: #111726;
+}
+
+.adduserformitem select {
+    padding: 10px 10px;
+    outline: none;
+    font-size: 1.2rem;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.adduserformdiv3 {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.adduserformdiv4 {
+    display: flex;
+}
+
+.adduserformclosebtn {
+    background-color: #1f2e52;
+    color: white;
+    padding: 8px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.adduserformclosebtn:hover {
+    background-color: #111726;
+}
+
+.adduserformclosebtn i {
+    font-size: 1.2rem;
+}

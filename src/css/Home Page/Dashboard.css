@@ -1,0 +1,205 @@
+.dashboardmaincontainer {
+    width: 83vw;
+
+    position: absolute;
+    display: flex;
+    top: 13vh;
+    right: 0;
+    /* height: 77vh; */
+}
+
+.dashboardjobopeningscontainer {
+    width: 40vw;
+    height: 18vh;
+    border-radius: 15px;
+    box-shadow: 0 0px 8px 0 rgba(85, 85, 85, 0.2);
+    margin: 20px;
+    z-index: 3;
+}
+
+.applicationdb {
+    margin-left: 42vw;
+}
+
+.applicationdb2 {
+    width: 89vw;
+    /* margin-left: 2vw; */
+}
+
+.dashboardjobopeningsdiv1 {
+    display: flex;
+    height: 50%;
+    padding: 0 2vw;
+    justify-content: space-between;
+    /* font-size: 1.1rem; */
+    font-weight: 600;
+    align-items: center;
+}
+
+.dashboardjobopeningsdiv1 .viewcareerpagebtncontainer {
+    padding: 5px 10px;
+}
+
+.dashboardjobopeningsdiv2 {
+    height: 50%;
+    padding: 0 2vw;
+}
+
+.dashboardjobopeningsdiv2childcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-top: 1px solid #1f2e52;
+}
+
+.dashboardjobopeningsdiv2childcontaineritempart1 i {
+    /* color: grey; */
+}
+
+.dashboardjobopeningsdiv2childcontaineritempart1 {
+    color: #1f2e52;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.dashboardjobopeningsdiv2childcontaineritempart2 {
+    color: grey;
+}
+
+
+
+.dashboardmaincontainer tbody tr:nth-of-type(2n) {
+    background-color: rgb(248, 248, 248);
+}
+
+.userdashboardtable {
+    position: relative;
+    height: 62vh;
+    top: 20vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    overflow: scroll;
+    width: 81vw;
+    box-shadow: 0 0px 8px 0 #55555533;
+    border-radius: 10px;
+}
+
+.userdashboardtable thead {
+    background-color: #1f2e52;
+    color: white;
+}
+
+.userdashboardtable td {
+    text-align: left;
+    padding: 25px;
+}
+
+.userdashboardtable th {
+    text-align: left;
+    font-size: 1rem;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.usertableheading {
+    /* padding: 0 20px; */
+}
+
+.usertableheading select {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+}
+.usertableheading input {
+    padding: 5px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+}
+
+.userdashboardtable::-webkit-scrollbar {
+    width: 10px;
+}
+
+.userdashboardtable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.userdashboardtable::-webkit-scrollbar-thumb {
+    border-radius: 40px;
+    background: #cacaca;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#tablename {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#tablename img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+tbody td{
+    font-size: 1.2rem;
+}
+
+.devdata{}
+
+.devdata p{
+    padding: 5px;
+    background-color: gold;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.devdata p{
+    padding: 5px;
+    background-color: gold;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.hadata p{
+    padding: 5px;
+    background-color: cornflowerblue;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.accountantdata p{
+    padding: 5px;
+    background-color:darkred;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: 500;
+    color: white;
+}
+.hrdata p{
+    padding: 5px;
+    background-color:rgb(11, 170, 170);
+    text-align: center;
+    border-radius: 40px;
+    font-weight: 500;
+    color: white;
+}
